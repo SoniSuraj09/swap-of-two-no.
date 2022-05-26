@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+printf("pick an item: \n1.pizza \n2.burger \n3.coke \n4.fries");
+int choice;
+scanf("%d",&choice;
+switch(choice)
+case1:
+     printf("You picked pizza");
+     break;
+case2:
+     printf("You picked burger");
+     break;
+case3:
+     printf("You picked cokea");
+     break;
+case4:
+     printf("You picked fries");
+     break;
+ default: printf("invalid choice");
+
+}
